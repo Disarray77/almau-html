@@ -1,0 +1,99 @@
+@import url ('https://fonts.google.com/share?selection.family=Montserrat:wght@100');
+body{
+	font-family: "Montserrat";
+	padding:  0;
+	margin: 0;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+
+
+
+}
+.video-bmw{
+	height:  100vh;
+	width: 100%;
+	overflow:  hidden;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+
+}
+.video-bmw video{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: 1;
+
+}
+.video-bmw__content {
+	z-index: 2;
+	font-size: 50px;
+	color: whitesmoke ;
+	display: inline-block;
+    text-decoration: none;
+    color: whitesmoke; 
+} 
+.title h1{
+	font-family: Montserrat;
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: whitesmoke;
+}
+.list_menu a{
+	font-family: Montserrat;
+	font-size: 20px;
+	color: whitesmoke;
+	border-left: 2px solid whitesmoke;
+	padding-left: 5px;
+	transition: all 0.2s ease;
+}
+.list_menu li{
+	margin: 20px 0;
+	color: whitesmoke;
+	font-weight: bold;
+
+
+
+}
+.menu{
+	padding: 25vh 50px;
+	position: fixed;
+	top: 0.2px;
+	left:  1px;
+	z-index: 10;
+	background: rgba(20, 20, 20, 0.5);
+	height: 100vh;
+	backdrop-filter:  blur(16px);
+	border-right: 7px ;
+	transition: all 0.2s ease;
+	left: -300px;
+}
+.menu:hover{
+	left: 0;
+	transition: all 0.2s ease;
+}
+.list_menu a:hover{
+	border-left: 2px solid whitesmoke;
+	padding-left: 10px;
+	transition: all 0.2s ease;
+}
+.title span{
+	color: 0087FF;
+}
+.logo1 {
+ display: flex;
+ position: relative;
+ margin: 14px 0px -65px 0px;
+ width: 150px;
+ height: auto;
+ z-index: 1;
+ top: -60px;
+ left: 0px;
+
+}
